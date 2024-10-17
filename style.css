@@ -37,3 +37,7 @@ button{
 button:hover{
     background-color: aquamarine; /* muda a cor do fundo do botão ao aproximar o cursor dele */
 }
+#resultado{
+    margin-top: 20px;
+    font-size: 15px;
+}
