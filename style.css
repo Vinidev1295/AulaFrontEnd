@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* familia da fonte */
+    font-size: large;
+    font-weight: 100;
+    background-color: rgb(31, 34, 131); /*cor de fundo*/
+    display: flex; /* flexbox (auxilia na disposição de conteúdo) */
+    justify-content: center; /* justificando ao centro */
+    align-items: center;
+    height: 50vh; /* definindo a altura (100 vh significa que vai ocupar toda a extensão da página) */
+    margin: 0;
+}
+.container{
+    font-size: large;
+    text-align: center;
+    background-color: rgb(126, 114, 114);
+    padding: 20px;
+    box-shadow: 0px 0px 10px;
+    width: 300px;
+}
+h1{
+    font-size: 24px; /* tamanho da fonte do titulo nivel 1 */
+    margin-bottom: 20px; /* margem do nosso h1 em relação a fonte inferior*/    
+}
+input, select{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid   #780a0a; /* estilo da borda: 1px= espessura da linha; solid = estilo da linha (linha sólida); #ddd = cor */
+    cursor: pointer ;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #780a0a;
+    cursor: pointer ;
+}
