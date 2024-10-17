@@ -34,3 +34,6 @@ button{
     background-color: #780a0a;
     cursor: pointer ;
 }
+button:hover{
+    background-color: aquamarine; /* muda a cor do fundo do botão ao aproximar o cursor dele */
+}
