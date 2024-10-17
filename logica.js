@@ -18,6 +18,6 @@ function converter(){
         document.getElementById("resultado").innerHTML = "Por favor, insira um valor válido."
     }
 function limpar(){
-    document.getElementById('valor').value=" "; // Limpa o campo
+    const limpar = document.getElementById('valor').value=""// Limpa o campo
 }
 }
