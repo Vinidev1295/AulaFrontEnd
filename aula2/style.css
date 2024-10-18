@@ -23,3 +23,11 @@ nav ul{
     /* Exibe os itens da lista horizontalmente */
     justify-content: center;
 }
+nav ul li{
+    margin: 0 15px; /* espaçamento entre os itens */
+}
+nav ul li a{
+    color: white;
+    text-decoration: none; /* remove o sublinhado dos links */
+    transition: color 0.3s; /* transição suave para hover */
+}
