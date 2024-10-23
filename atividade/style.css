@@ -1,19 +1,19 @@
 /* Estilos gerais para o corpo da pagina */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(196, 252, 255);
+    background-color: rgb(162, 110, 110);
 }
 /* Estilo para o cabeçalho */
 header{
-    background-color: rgb(66, 43, 43); /* cor de fundo do cabeçalho */
-    color: rgb(210, 30, 30); /* cor das letras do cabeçalho */
+    background-color: rgb(209, 101, 101); /* cor de fundo do cabeçalho */
+    color: rgb(30, 99, 210); /* cor das letras do cabeçalho */
     padding: 20px; /* preenchimento do cabeçalho */
     text-align: center; /* alinhando o texto dentro do cabeçalho */
-}
+}   
 
 /* Estilizando a navegação */
 nav{
-    background-color: rgb(169, 167, 171);
+    background-color: rgb(46, 2, 91);
     color: rgb(105, 198, 77);
     padding: 10px;
 }
@@ -39,14 +39,13 @@ nav ul li a:hover{
 
 /* Estilo para o conteúdo principal */
 article {
-    background-color: aqua;
-    color: #333;
+    background-color: rgb(6, 121, 90);
     padding: 20px;
     text-align: center;
 }
 /* Estilizando o rodapé */  
 footer{
-    background-color: rgb(221, 146, 55);
+    background-color:  rgb(209, 101, 101);
     color: black;
     text-align: center;
     padding: 10px;
