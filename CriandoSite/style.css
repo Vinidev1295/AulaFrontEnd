@@ -1,0 +1,36 @@
+/* Estilos gerais para o corpo da pagina */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(196, 252, 255);
+}
+header{
+    background-color: rgb(66, 43, 43); /* cor de fundo do cabeçalho */
+    color: rgb(210, 30, 30); /* cor das letras do cabeçalho */
+    padding: 20px; /* preenchimento do cabeçalho */
+    text-align: center; /* alinhando o texto dentro do cabeçalho */
+}
+/* Estilizando a navegação */
+nav{
+    background-color: rgb(169, 167, 171);
+    color: rgb(105, 198, 77);
+    padding: 10px;
+}
+nav ul{
+    /* Remove os marcadores da lista */
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    /* Exibe os itens da lista horizontalmente */
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px; /* espaçamento entre os itens */
+}
+nav ul li a{
+    color: white;
+    text-decoration: none; /* remove o sublinhado dos links */
+    transition: color 0.3s; /* transição suave para hover */
+}
+nav ul li a:hover{
+    color: brown; /* hover muda a cor quando aproxima o cursos */
+}
