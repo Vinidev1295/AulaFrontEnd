@@ -1,0 +1,63 @@
+/* Estilos gerais para o corpo da pagina */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(162, 110, 110);
+}
+/* Estilo para o cabeçalho */
+header{
+    background-color: rgb(209, 101, 101); /* cor de fundo do cabeçalho */
+    color: rgb(30, 99, 210); /* cor das letras do cabeçalho */
+    padding: 20px; /* preenchimento do cabeçalho */
+    text-align: center; /* alinhando o texto dentro do cabeçalho */
+}   
+
+/* Estilizando a navegação */
+nav{
+    background-color: rgb(46, 2, 91);
+    color: rgb(105, 198, 77);
+    padding: 10px;
+}
+nav ul{
+    /* Remove os marcadores da lista */
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    /* Exibe os itens da lista horizontalmente */
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px; /* espaçamento entre os itens */
+}
+nav ul li a{
+    color: white;
+    text-decoration: none; /* remove o sublinhado dos links */
+    transition: color 0.3s; /* transição suave para hover */
+}
+nav ul li a:hover{
+    color: brown; /* hover muda a cor quando aproxima o cursos */
+}
+
+/* Estilo para o conteúdo principal */
+article {
+    background-color: rgb(6, 121, 90);
+    padding: 20px;
+    text-align: center;
+}
+/* Estilizando o rodapé */  
+footer{
+    background-color:  rgb(209, 101, 101);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.imagem {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.video{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;    
+}
